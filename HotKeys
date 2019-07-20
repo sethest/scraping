@@ -1,4 +1,4 @@
 Ctrl + / : Comment
 Shift + Enter : Jump to Next Line
-(Click file first) Shift + F6 : Rename file
+"Click file" + Shift + F6 : Rename file
 Ctrl + Alt + L : Reformat source code
