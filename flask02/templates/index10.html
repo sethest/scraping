@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello10</title>
+</head>
+<body>
+{% macro render_row(row) %}
+<tr>
+    {% for item in row %}
+    <td>{{ item }}</td>
+    {% endfor %}
+</tr>
+{% endmacro %}
+
+<table>
+    {% for row in myTable %}
+    {{　render_row(row)　}}
+    {% endfor %}
+</table>
+</body>
+</html>
