@@ -1,4 +1,9 @@
-Ctrl + / : Comment
+Ctrl + / : 整行註解
+"選取範圍" + Ctrl + Shift + / : 範圍註解
 Shift + Enter : Jump to Next Line
 "Click file" + Shift + F6 : Rename file
 Ctrl + Alt + L : Reformat source code
+Ctrl + Shift + N : Open any class or file    e.g.  輸入 he:3 > 點選 hello10.py > 打開 hello10.py > 游標停在第3行
+
+檔名綠色表示 local新增, remote 還沒有檔案
+檔名藍色表示 local修改, 與 remote 內容不同

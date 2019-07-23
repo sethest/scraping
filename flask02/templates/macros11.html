@@ -1,0 +1,7 @@
+{% macro render_row(row) %}
+<tr>
+    {% for item in row %}
+    <td>{{ item }}</td>
+    {% endfor %}
+</tr>
+{% endmacro %}

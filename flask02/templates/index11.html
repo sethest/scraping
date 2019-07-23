@@ -2,17 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>hello09</title>
+    <title>index11</title>
 </head>
 <body>
 
+{% import 'macros11.html' as macros %}
+
 <table>
     {% for row in myTable %}
-    <tr>
-        {% for item in row %}
-        <td> {{ item }}</td>
-        {% endfor %}
-    </tr>
+    {{　macros.render_row(row)　}}
     {% endfor %}
 </table>
 

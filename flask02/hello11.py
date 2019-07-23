@@ -13,7 +13,7 @@ def index():
     a = np.array([[1, 2, 3],
                   [4, 5, 6],
                   [7, 8, 9]])
-    return render_template('index10.html', myTable=a)
+    return render_template('index11.html', myTable=a)
 
 
 if __name__ == '__main__':
