@@ -6,5 +6,25 @@ https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81
 400 Bad Request
 由於明顯的用戶端錯誤，伺服器不能或不會處理該請求。
 
+403 Forbidden (被禁止)
+伺服器已經理解請求，但是拒絕執行它。
+
 404 Not Found
 請求失敗，請求所希望得到的資源未被在伺服器上發現，但允許用戶的後續請求。
+
+429 Too Many Requests
+用戶在給定的時間內傳送了太多的請求。旨在用於網路限速。
+
+500 Internal Server Error
+通用錯誤訊息，伺服器遇到了一個未曾預料的狀況，導致了它無法完成對請求的處理。沒有給出具體錯誤資訊。
+
+502 Bad Gateway
+作為閘道器或者代理工作的伺服器嘗試執行請求時，從上游伺服器接收到無效的回應。
+nginx 所有 upstream 成員都不可用時
+
+503 Service Unavailable
+由於臨時的伺服器維護或者過載，伺服器目前無法處理請求。
+
+504 Gateway Timeout
+作為閘道器或者代理工作的伺服器嘗試執行請求時，未能及時從上游伺服器收到回應。
+nginx 的 upstream 回應太慢
