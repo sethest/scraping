@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello01</title>
+</head>
+<body>
+<h1>Hello World</h1>
+<ul>
+    <li>
+        <a href="{{ url_for('index') }}">index page</a>  <!--用法一-->
+    </li>
+    <li>
+        <a href="{{ url_for('login') }}">login page</a>
+    </li>
+    <li>
+        <a href="{{ url_for('auth', is_login=1) }}">auth page</a>
+    </li>
+    <li>
+        <a href="{{ url_for('auth', is_login=1, uname='Seth') }}">name = Seth</a> <!--用法二-->
+    </li>
+    <li>
+        <a href="{{ url_for('auth', is_login=1, uname='Wendy', uid=3, _external=True) }}">name = Wendy</a>  <!--用法三-->
+    </li>
+</ul>
+</body>
+</html>
