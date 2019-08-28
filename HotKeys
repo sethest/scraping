@@ -7,6 +7,7 @@ Ctrl + Shift + N : Open any class or file    e.g.  輸入 he:3 > 點選 hello10.
 Ctrl + Shift + F10 : 執行當前 .py 檔案
 Alt + F12 : 打開 Terminal (cmdline)
 Ctrl + E : reopen closed tab
+Ctrl + Y : delete one line
 
 
 檔名綠色表示 local新增, remote 還沒有檔案
