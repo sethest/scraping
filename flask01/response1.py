@@ -1,5 +1,5 @@
-# 在 flask application 內回傳 response 物件
-# 回傳一個 http status code 400
+# 在 flask application 內回傳 "字串" & "http status code"
+# 不是回傳 response物件
 from flask import Flask
 
 app = Flask(__name__)
@@ -12,5 +12,3 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
